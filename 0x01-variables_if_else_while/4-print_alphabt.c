@@ -4,7 +4,7 @@
 
 /**
  * main - start of the program
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -17,9 +17,9 @@ int main(void)
 
 	for (low = 'a'; low <= 'z'; low++)
         {
-		if (low != e && low != q)
-			putchar(low);
+	if (low != e && low != q)
+	putchar(low);
 	}
 	putchar('\n');
-		return (0);
+	return (0);
 } 
