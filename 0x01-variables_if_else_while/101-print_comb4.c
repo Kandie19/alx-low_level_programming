@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <time.h> 
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -22,7 +22,7 @@ int main(void)
 					putchar(n);
 					putchar(m);
 					putchar(i);
-					if (n != 55 || m !=56)
+					if (n != 55 || m != 56)
 					{
 						putchar(',');
 						putchar(' ');
